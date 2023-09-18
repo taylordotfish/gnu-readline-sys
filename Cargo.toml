@@ -1,0 +1,16 @@
+[package]
+name = "readline-sys"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.56"
+description = "Rust bindings to GNU Readline"
+documentation = "https://docs.rs/readline-sys"
+readme = "misc/crate-readme.md"
+repository = "https://github.com/taylordotfish/readline-sys"
+license = "GPL-3.0-or-later"
+links = "readline"
+categories = ["external-ffi-bindings"]
+keywords = ["readline", "ffi", "bindings"]
+
+[dependencies]
+libc = "0.2"
