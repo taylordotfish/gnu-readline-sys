@@ -13,7 +13,7 @@ For API details, see [the documentation for GNU Readline][docs].
 Documentation
 -------------
 
-Rust documentation is [available on docs.rs][docs.rs] but users will also want
+Rust documentation is [available on docs.rs][docs.rs], but users will also want
 to refer directly to [Readline’s documenation][docs].
 
 [docs.rs]: https://docs.rs/gnu-readline-sys/0.1
