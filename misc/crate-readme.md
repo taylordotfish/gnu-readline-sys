@@ -1,5 +1,5 @@
-readline-sys
-============
+gnu-readline-sys
+================
 
 This crate contains low-level bindings to GNU Readline.
 
