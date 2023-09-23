@@ -20,8 +20,8 @@
 # See ./COPYRIGHT for more information.
 
 set -eu
-case "${1:--h}" in
-    -h|--help)
+case "${1-}" in
+    ""|-h|--help)
         echo >&2 "Usage: $(basename "$0") <readline-dir>"
         exit 1
     ;;
